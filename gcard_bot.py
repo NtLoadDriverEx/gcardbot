@@ -2,7 +2,7 @@ from selenium import webdriver
 import urllib3
 import json
 
-webhook = 'https://discord.com/api/webhooks/825779409604444200/MvHJ_JN6yGxqon695T2o4AFQUg6DRsctwlnrxQdC7SEEYvwDuQFjWYFq6Wu1RW37XHr5'
+webhook = '<webhook>'
 
 def alert_string(value, tts = False):
     bot_string = {"username": "GCard Bot", "content": str(value), "tts": tts}
